@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Conversor de temperatura</h1>
+        <p class="page-subtitle">Converta a temperatura de Celsius para Fahrenheit e Kelvin</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/1684/1684375.png" class="page-logo" alt="desenho de um termômetro com sol ao lado"><br><br>
+        <label for="temperature">Insira a temperatura em Celsius</label><br>
+        <input type="number" id="value"/><br>
+        <button type="submit" onclick="Convert()">Converter</button>
+        <h2 id="convertedValueFahrenheit"></h2>
+        <h2 id="convertedValueKelvin"></h2>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
