@@ -1,9 +1,11 @@
 function Convert() {
+    // GLOBAL
     //  Get input value and transform it from string to float number
     let valueElement = document.getElementById('value')
     let value = valueElement.value
     let celsiusValue = parseFloat(value)
 
+    // FAHRENHEIT
     // Convert celsius value to fahrenheit
     let fahrenheitValue = ((celsiusValue * 9/5) + 32)
 
@@ -12,7 +14,7 @@ function Convert() {
     let convertedValueFahrenheit = celsiusValue + "°C é igual a " + fahrenheitValue + "°F"
     fahrenheitValueElement.innerHTML = convertedValueFahrenheit
 
-
+    // KELVIN
     // Convert celsius value to kelvin
     let kelvinValue = (celsiusValue + 273.15)
 
